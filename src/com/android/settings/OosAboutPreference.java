@@ -79,6 +79,9 @@ public class OosAboutPreference extends Preference {
             case "violet":
                 deviceIcon.setImageResource(R.drawable.ic_device_violet);
                 break;
+            case "lavender":
+                deviceIcon.setImageResource(R.drawable.ic_device_lavender);
+                break;
             case "tulip":
                 deviceIcon.setImageResource(R.drawable.ic_device_tulip);
                 break;
