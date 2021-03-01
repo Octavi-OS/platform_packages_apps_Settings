@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (C) 2020 OctaviOS
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Copyright (C) 2007 The Android Open Source Project
 
-    <!-- Battery Health -->
-    <java-symbol type="bool" name="config_supportBatteryHealth"/>
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float"/>
+        <attr name="maxI" format="float"/>
+        <attr name="defaultValuePure" format="float"/>
+        <attr name="digits" format="integer"/>
+    </declare-styleable>
+
+    <attr name="mwhWaves" format="string|enum">
+        <enum name="MultiWave" value="-1"/>
+        <enum name="PairWave" value="-2"/>
+    </attr>
+    <attr name="mwhShape" format="enum">
+        <enum name="Rect" value="0"/>
+        <enum name="RoundRect" value="1"/>
+        <enum name="Oval" value="2"/>
+    </attr>
+    <declare-styleable name="MultiWaveHeader">
+        <attr name="mwhWaveHeight" format="dimension"/>
+        <attr name="mwhStartColor" format="color"/>
+        <attr name="mwhCloseColor" format="color"/>
+        <attr name="mwhIsRunning" format="boolean"/>
+        <attr name="mwhEnableFullScreen" format="boolean"/>
+        <attr name="mwhColorAlpha" format="fraction|float"/>
+        <attr name="mwhProgress" format="fraction|float"/>
+        <attr name="mwhVelocity" format="fraction|float"/>
+        <attr name="mwhGradientAngle" format="integer"/>
+        <attr name="mwhCornerRadius" format="dimension"/>
+        <attr name="mwhWaves"/>
+        <attr name="mwhShape"/>
+    </declare-styleable>
+
+    <attr name="customPreferenceStyle" format="reference"/>
 
 </resources>
