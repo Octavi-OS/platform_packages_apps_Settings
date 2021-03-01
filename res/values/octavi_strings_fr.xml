@@ -13,39 +13,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Interval seekbar -->
-    <declare-styleable name="IntervalSeekBar">
-        <attr name="minI" format="float"/>
-        <attr name="maxI" format="float"/>
-        <attr name="defaultValuePure" format="float"/>
-        <attr name="digits" format="integer"/>
-    </declare-styleable>
-
-    <attr name="mwhWaves" format="string|enum">
-        <enum name="MultiWave" value="-1"/>
-        <enum name="PairWave" value="-2"/>
-    </attr>
-    <attr name="mwhShape" format="enum">
-        <enum name="Rect" value="0"/>
-        <enum name="RoundRect" value="1"/>
-        <enum name="Oval" value="2"/>
-    </attr>
-    <declare-styleable name="MultiWaveHeader">
-        <attr name="mwhWaveHeight" format="dimension"/>
-        <attr name="mwhStartColor" format="color"/>
-        <attr name="mwhCloseColor" format="color"/>
-        <attr name="mwhIsRunning" format="boolean"/>
-        <attr name="mwhEnableFullScreen" format="boolean"/>
-        <attr name="mwhColorAlpha" format="fraction|float"/>
-        <attr name="mwhProgress" format="fraction|float"/>
-        <attr name="mwhVelocity" format="fraction|float"/>
-        <attr name="mwhGradientAngle" format="integer"/>
-        <attr name="mwhCornerRadius" format="dimension"/>
-        <attr name="mwhWaves"/>
-        <attr name="mwhShape"/>
-    </declare-styleable>
-
-    <attr name="customPreferenceStyle" format="reference"/>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Defines the location of the fingerprint sensor on the device
+         0 = back
+         1 = front
+         2 = left side
+         3 = right side
+    -->
+    <!-- Device specific doze package -->
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
+    <string name="config_batChargeCycle"></string>
+    <!-- Whether to show min refresh rate in display settings -->
 </resources>
