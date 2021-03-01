@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,17 +14,36 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Defines the location of the fingerprint sensor on the device
-         0 = back
-         1 = front
-         2 = left side
-         3 = right side
-    -->
-    <!-- Device specific doze package -->
-    <!-- Battery Health -->
-    <string name="config_batCurCap"></string>
-    <string name="config_batDesCap"></string>
-    <string name="config_batChargeCycle"></string>
-    <!-- Whether to show min refresh rate in display settings -->
+<resources>
+    <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
+         config_fingerprintSensorLocation -->
+    <!-- Volume step options. -->
+    <!-- Refresh rate -->
+    <string-array name="refresh_rate_entries">
+        <item>@string/auto_refresh_rate</item>
+        <item>60Hz</item>
+        <item>90Hz</item>
+    </string-array>
+    <string-array name="refresh_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Vibration patterns -->
+    <string-array name="vibration_pattern_entries">
+        <item>@string/pattern_dzzz_dzzz</item>
+        <item>@string/pattern_dzzz_da</item>
+        <item>@string/pattern_mm_mm_mm</item>
+        <item>@string/pattern_da_da_dzzz</item>
+        <item>@string/pattern_da_dzzz_da</item>
+        <item>@string/pattern_custom</item>
+    </string-array>
+    <string-array name="vibration_pattern_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 </resources>
