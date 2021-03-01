@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2012-2015 The CyanogenMod Project
+<!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,35 +14,38 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
-         config_fingerprintSensorLocation -->
-    <!-- Volume step options. -->
-    <!-- Refresh rate -->
-    <string-array name="refresh_rate_entries">
-        <item>@string/auto_refresh_rate</item>
-        <item>60Hz</item>
-        <item>90Hz</item>
-    </string-array>
-    <string-array name="refresh_rate_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <!-- Vibration patterns -->
-    <string-array name="vibration_pattern_entries">
-        <item>@string/pattern_dzzz_dzzz</item>
-        <item>@string/pattern_dzzz_da</item>
-        <item>@string/pattern_mm_mm_mm</item>
-        <item>@string/pattern_da_da_dzzz</item>
-        <item>@string/pattern_da_dzzz_da</item>
-        <item>@string/pattern_custom</item>
-    </string-array>
-    <string-array name="vibration_pattern_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float"/>
+        <attr name="maxI" format="float"/>
+        <attr name="defaultValuePure" format="float"/>
+        <attr name="digits" format="integer"/>
+    </declare-styleable>
+
+    <attr name="mwhWaves" format="string|enum">
+        <enum name="MultiWave" value="-1"/>
+        <enum name="PairWave" value="-2"/>
+    </attr>
+    <attr name="mwhShape" format="enum">
+        <enum name="Rect" value="0"/>
+        <enum name="RoundRect" value="1"/>
+        <enum name="Oval" value="2"/>
+    </attr>
+    <declare-styleable name="MultiWaveHeader">
+        <attr name="mwhWaveHeight" format="dimension"/>
+        <attr name="mwhStartColor" format="color"/>
+        <attr name="mwhCloseColor" format="color"/>
+        <attr name="mwhIsRunning" format="boolean"/>
+        <attr name="mwhEnableFullScreen" format="boolean"/>
+        <attr name="mwhColorAlpha" format="fraction|float"/>
+        <attr name="mwhProgress" format="fraction|float"/>
+        <attr name="mwhVelocity" format="fraction|float"/>
+        <attr name="mwhGradientAngle" format="integer"/>
+        <attr name="mwhCornerRadius" format="dimension"/>
+        <attr name="mwhWaves"/>
+        <attr name="mwhShape"/>
+    </declare-styleable>
+
+    <attr name="customPreferenceStyle" format="reference"/>
+
 </resources>
