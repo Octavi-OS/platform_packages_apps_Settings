@@ -12,49 +12,49 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Octavi Stage in About phone -->
-    <string name="octavi_stage_title">OctaviOS Stage</string>
+    <string name="octavi_stage_title">Стадия OctaviOS</string>
     <!-- Build types, now with translations -->
-    <string name="build_type">Build Type</string>
-    <string name="octavi_official">Official</string>
-    <string name="octavi_unofficial">Unofficial</string>
+    <string name="build_type">Тип сборки</string>
+    <string name="octavi_official">Официальный</string>
+    <string name="octavi_unofficial">Неофициальная</string>
     <!-- Device Model -->
-    <string name="octavi_device_model">Device Model</string>
+    <string name="octavi_device_model">Модель устройства</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой грани вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой грани вашего телефона.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите сканер отпечатков пальцев на левой грани вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите сканер отпечатков пальцев на правой грани вашего устройства.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой панели вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите сканер отпечатков пальцев на левой грани вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой грани вашего планшета.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">История использования батареи будет сброшена</string>
     <!-- Phone Specs -->
-    <string name="specs_title">Phone Specifications</string>
+    <string name="specs_title">Спецификации телефона</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Octavi Lab -->
-    <string name="octavi_lab_dash_title">Octavi Lab</string>
-    <string name="octavi_lab_summary">Customization Laboratory</string>
+    <string name="octavi_lab_dash_title">Лаборатория Octavi</string>
+    <string name="octavi_lab_summary">Лаборатория настроек</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Температура батареи</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">Звуковой сигнал при подключении/отключении зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_title">Стиль часов</string>
+    <string name="clock_style_summary">Настроить часы на экране блокировки</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">Здоровье батареи</string>
     <string name="battery_health_summary">Monitor the battery health of your device</string>
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
@@ -120,18 +120,18 @@
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
     <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-    <string name="adaptive_playback_explainer">Adaptive playback automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
+    <string name="adaptive_playback_explainer">Адаптивное воспроизведение автоматически приостанавливает медиа контент когда звук ставится на \"бесшумно\" и возобновляет при восстановлении громкости в течение заданного времени.</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">Низ</string>
+    <string name="back_options_dialog_title">Опции</string>
+    <string name="back_height_message">Высота экрана используемая для работы жеста назад.</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="smallest_tick_label">Выключено</string>
+    <string name="greatest_tick_label">В пол-экрана</string>
+    <string name="gesture_back_deadzone_label">Мертвая зона</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
