@@ -20,20 +20,20 @@
     <!-- Device Model -->
     <string name="octavi_device_model">Device Model</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">指紋感應器位於手機右側。</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">指紋感應器位於裝置正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">指紋感應器位於裝置左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">指紋感應器位於裝置右側。</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">指紋感應器位於平板正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">指紋感應器位於平板左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">重置統計資訊</string>
+    <string name="battery_stats_message">電池歷史記錄統計資訊將被重置</string>
     <!-- Phone Specs -->
     <string name="specs_title">Phone Specifications</string>
     <!-- App details: open play store link if app is user installed -->
@@ -41,22 +41,22 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Octavi Lab -->
-    <string name="octavi_lab_dash_title">Octavi Lab</string>
-    <string name="octavi_lab_summary">Customization Laboratory</string>
+    <string name="octavi_lab_dash_title">Octavi 實驗室</string>
+    <string name="octavi_lab_summary">個人化實驗室</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">電池溫度</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">充電提示音</string>
+    <string name="charging_vibro_title">充電時震動</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_title">時鐘樣式</string>
+    <string name="clock_style_summary">自訂鎖定畫面時鐘</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="battery_health_title">電池健康度</string>
+    <string name="battery_health_summary">監控電池的健康度</string>
+    <string name="current_battery_capacity">目前電池容量</string>
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
