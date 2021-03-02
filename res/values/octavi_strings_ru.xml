@@ -54,7 +54,7 @@
     <string name="clock_style_title">Стиль часов</string>
     <string name="clock_style_summary">Настроить часы на экране блокировки</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Здоровье батареи</string>
+    <string name="battery_health_title">Состояние батареи</string>
     <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
     <string name="current_battery_capacity">Текущая емкость батареи</string>
     <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
