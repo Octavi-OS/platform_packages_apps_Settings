@@ -55,8 +55,8 @@
     <string name="clock_style_summary">Настроить часы на экране блокировки</string>
     <!-- Battery health -->
     <string name="battery_health_title">Здоровье батареи</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая емкость батареи</string>
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
@@ -65,12 +65,12 @@
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Advanced powermenu -->
-    <string name="global_actions_title">Power menu</string>
+    <string name="global_actions_title">Меню питания</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">по умолч</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
@@ -112,14 +112,14 @@
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
     <string name="adaptive_playback_explainer">Адаптивное воспроизведение автоматически приостанавливает медиа контент когда звук ставится на \"бесшумно\" и возобновляет при восстановлении громкости в течение заданного времени.</string>
@@ -134,7 +134,7 @@
     <string name="gesture_back_deadzone_label">Мертвая зона</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
