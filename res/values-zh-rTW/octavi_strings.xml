@@ -14,11 +14,11 @@
     <!-- Octavi Stage in About phone -->
     <string name="octavi_stage_title">OctaviOS Stage</string>
     <!-- Build types, now with translations -->
-    <string name="build_type">Build Type</string>
-    <string name="octavi_official">Official</string>
-    <string name="octavi_unofficial">Unofficial</string>
+    <string name="build_type">編譯類型</string>
+    <string name="octavi_official">官方</string>
+    <string name="octavi_unofficial">非官方</string>
     <!-- Device Model -->
-    <string name="octavi_device_model">Device Model</string>
+    <string name="octavi_device_model">裝置型號</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機正面。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左側。</string>
