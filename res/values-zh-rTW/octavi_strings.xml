@@ -35,7 +35,7 @@
     <string name="battery_stats_reset">重置統計資訊</string>
     <string name="battery_stats_message">電池歷史記錄統計資訊將被重置</string>
     <!-- Phone Specs -->
-    <string name="specs_title">Phone Specifications</string>
+    <string name="specs_title">手機規格</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play 商店</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -70,7 +70,7 @@
     <string name="custom_light_title">指示燈顏色</string>
     <string name="custom_light_on_time_title">在 LED 閃爍時燈號開啟的時間 (毫秒)</string>
     <string name="custom_light_off_time_title">在 LED 閃爍時燈號的關閉時間 (毫秒)</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">預設</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">隨機排序</string>
     <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用隨機排序 PIN 碼鍵盤</string>
@@ -186,14 +186,14 @@
     <string name="increasing_ring_min_volume_title">起始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
     <!-- Navbar radius -->
-    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="navbar_radius">手勢欄範圍大小</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">向上滑動即可解鎖</string>
+    <string name="security_settings_face_require_swipe_summary">向上滑動鎖定螢幕以使用臉部辨識解鎖</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">等待接聽電話時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
 </resources>
