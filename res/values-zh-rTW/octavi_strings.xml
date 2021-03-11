@@ -113,15 +113,15 @@
     <string name="adaptive_playback_timeout_none">不限時間</string>
     <string name="adaptive_playback_timeout_none_summary">開啟 (不限時間)</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">開啟 (30秒)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">開啟 (30 秒)</string>
     <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
     <string name="adaptive_playback_timeout_1_min_summary">開啟 (1 分鐘)</string>
     <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
-    <string name="adaptive_playback_timeout_2_min_summary">開啟 (2分鐘)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">開啟 (2 分鐘)</string>
     <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
-    <string name="adaptive_playback_timeout_5_min_summary">開啟 (5分鐘)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">開啟 (5 分鐘)</string>
     <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
-    <string name="adaptive_playback_timeout_10_min_summary">開啟 (10分鐘)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">開啟 (10 分鐘)</string>
     <string name="adaptive_playback_explainer">當音量被靜音時，自適應播放會自動暫停媒體，當音量在設定時間內恢復時會自動恢復播放。</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">全部</string>
