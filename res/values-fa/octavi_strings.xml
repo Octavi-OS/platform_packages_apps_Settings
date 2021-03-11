@@ -113,67 +113,67 @@
     <string name="adaptive_playback_timeout_none">بدون تنظیم زمان</string>
     <string name="adaptive_playback_timeout_none_summary">روشن(بدون وقفه)</string>
     <string name="adaptive_playback_timeout_30_secs">۳۰ ثانیه</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">روشن(۳۰ثانیه)</string>
+    <string name="adaptive_playback_timeout_1_min">۱ دقیقه</string>
+    <string name="adaptive_playback_timeout_1_min_summary">روشن(۱ دقیقه)</string>
+    <string name="adaptive_playback_timeout_2_min">۲ دقیقه</string>
+    <string name="adaptive_playback_timeout_2_min_summary">روشن(۲دقیقه)</string>
+    <string name="adaptive_playback_timeout_5_min">۵ دقیقه</string>
+    <string name="adaptive_playback_timeout_5_min_summary">روشن(۵دقیقه)</string>
+    <string name="adaptive_playback_timeout_10_min">۱۰ دقیقه</string>
+    <string name="adaptive_playback_timeout_10_min_summary">روشن(۱۰دقیقه)</string>
     <string name="adaptive_playback_explainer">Adaptive playback automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">کامل</string>
+    <string name="back_height_high_label">پایین</string>
+    <string name="back_options_dialog_title">گزینه ها</string>
+    <string name="back_height_message">مقدار ارتفاع صفحه نمایش که به عنوان منطقه قابل لمس برای حرکت بازگشت استفاده می شود.</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="smallest_tick_label">خاموش</string>
+    <string name="greatest_tick_label">نصف صفحه</string>
+    <string name="gesture_back_deadzone_label">منطقه غیر قابل لمس</string>
     <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_message">انیمیشن ژست حرکت عقب</string>
+    <string name="back_gesture_arrow_summary">نشان دادن انیمیشن برای پیکان ژست عقب گرد</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">حداقل میزان نرخ تازه سازی صفحه</string>
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume steps</string>
-    <string name="volume_steps_summary">Number of steps for volumes</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Music</string>
-    <string name="volume_steps_notification_title">Volume steps: Notification</string>
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-    <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_title">سطح های افزایش صدا</string>
+    <string name="volume_steps_summary">تنظیم تعداد سطح برای افزایش صدا</string>
+    <string name="volume_steps_alarm_title">میزان سطح صدا: هشدار صوتی</string>
+    <string name="volume_steps_dtmf_title">میزان سطح صدا: DTMF</string>
+    <string name="volume_steps_music_title">میزان سطح صدا: موزیک</string>
+    <string name="volume_steps_notification_title">تعداد سطح صدا: اعلانات</string>
+    <string name="volume_steps_ring_title">تنظیم حساسیت تغییر میزان صدا: صدای زنگ</string>
+    <string name="volume_steps_system_title">تنظیم حساسیت تغییر میزان صدا: صدای سیستم</string>
+    <string name="volume_steps_voice_call_title">تنظیم حساسیت تغییر میزان صدا: تماس صوتی</string>
+    <string name="volume_steps_reset">تنظیم مجدد</string>
     <!-- Running services toggle -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">پردازش های پس‌زمینه</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">تشخیص قرارگیری گوشی در جیب</string>
+    <string name="pocket_judge_summary">قطع عملکرد صفحه نمایش و دکمه‌های ورودی هنگامی که دستگاه در جیب است</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">شارژ هوشمند</string>
+    <string name="smart_charging_summary">تنظیم حداکثر مقدار شارژ</string>
+    <string name="smart_charging_switch_title">استفاده از شارژ هوشمند</string>
+    <string name="smart_charging_level_title">مقدار توقف شارژ</string>
+    <string name="smart_charging_resume_level_title">مقدار شروع شارژ</string>
+    <string name="smart_charging_reset_stats_title">تنظیم مجدد آمار کارکرد باتری</string>
+    <string name="smart_charging_reset_stats_summary">تنظیم مجدد آمار کارکرد باتری بعد از رسیدن به مقدار شارژ تعیین شده</string>
+    <string name="smart_charging_footer">شارژ هوشمند این امکان را به شما میدهد تا برای مقدار شارژ باتری خود حد تعیین کنید. این قابلیت عمر باتری شما را افزایش می‌دهد</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Screen refresh rate</string>
-    <string name="refresh_rate_summary_auto">Auto / Automatically raises the refresh rate from 60 to 90Hz for some content</string>
-    <string name="refresh_rate_summary_60">60Hz / Refresh rate locked at 60Hz for all content</string>
-    <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
-    <string name="auto_refresh_rate">Auto</string>
+    <string name="refresh_rate_title">نرخ تازه سازی صفحه نمایش</string>
+    <string name="refresh_rate_summary_auto">اتوماتیک / بین 60 الی 90 هرتز متغییر است</string>
+    <string name="refresh_rate_summary_60">60 هرتز / برای تمامی محتوا روی 60 هرتز قفل شده است</string>
+    <string name="refresh_rate_summary_90">90 هرتز / برای تمامی محتوا روی 90 هرتز قفل شده است</string>
+    <string name="auto_refresh_rate">خودکار</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access alerts</string>
-    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <string name="show_clipboard_toast">نمایش دسترسی به کلیپ بورد(متن های کپی شده)</string>
+    <string name="show_clipboard_toast_summary">پیام کوچک سیستمی ای هنگامی که یک برنامه تلاش میکند به کلیپ بورد دسترسی پیدا کند نشان داده شود</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">الگوی لرزش در هنگام زنگ خوردن</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
