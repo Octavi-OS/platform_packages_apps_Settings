@@ -112,7 +112,7 @@
     <string name="adaptive_playback_timeout_title">超過時間</string>
     <string name="adaptive_playback_timeout_none">不限時間</string>
     <string name="adaptive_playback_timeout_none_summary">開啟 (不限時間)</string>
-    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">開啟 (30秒)</string>
     <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
     <string name="adaptive_playback_timeout_1_min_summary">開啟 (1 分鐘)</string>
