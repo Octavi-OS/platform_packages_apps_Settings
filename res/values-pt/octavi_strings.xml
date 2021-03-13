@@ -196,4 +196,5 @@
     <string name="incall_vibrate_connect_title">Vibrar ao ligar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar com chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <string name="trademark">&#8482;</string>
 </resources>
