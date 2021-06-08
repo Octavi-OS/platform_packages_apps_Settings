@@ -52,6 +52,13 @@
         android:layout="@layout/about_preference"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+  <!-- DRAMA -->
+      <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:title="DRAMA MODE"
+        android:summaryOn="Drama"
+        android:summaryOff="Extreme DRAMA"
+        android:defaultValue="true" />
+  
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
