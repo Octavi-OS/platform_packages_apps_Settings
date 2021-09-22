@@ -83,24 +83,19 @@ public class SettingsHomepageActivity extends FragmentActivity {
     static ArrayList<String> text=new ArrayList<>();
     static {
         text.add("Thanks, for choosing Octavi!");
-	text.add("I wonder how many rejections you had");
 	text.add("Always remember that you're unique");
-        text.add("Constipated people don’t give a crap");
         text.add("Unicorns ARE real, we call them rhinos");
-        text.add("If there is a *WILL*, there are 500 relatives");
-        text.add("Those who throw dirt only lose ground");
-        text.add("I’d like to help you out");
         text.add("Age is a question of mind over matter");
-        text.add("I’m an excellent housekeeper");
-        text.add("Change is good, but dollars are better");
-        text.add("If you cannot convince them, confuse them");
         text.add("This sentence is a lie");
-        text.add("Two wrongs don't make a right, for ex. your parents");
-        text.add("Stupidity is not a crime so you are free to go.");
-        text.add("I'm not insulting you. I'm describing you");
-        text.add("You're so fake, Barbie is jealous");
-        text.add("There's only one problem with your face, I can see it");
-	text.add("If I had a face like yours, I'd sue my parents");
+        text.add("Do or do not. There is no try.");
+        text.add("Life is a long lesson in humility.");
+        text.add("This too shall pass");
+        text.add("Silence, I discover, is something I can actually hear.");
+        text.add("Peace is always beautiful");
+	text.add("Make everyday a little less ordinary");
+	text.add("Believe you can, and you are halfway there");
+	text.add("Whatever you are, be a good one");
+	text.add("I dream. Sometimes I think that's the only right thing to do.");
     }
 
    CollapsingToolbarLayout collapsing_toolbar;
